@@ -1,5 +1,12 @@
 /* impostazioni generali di pagina */
 
+/* NOTE:
+background: #fbfafb
+rosa: #eb008d
+azzurro: #0075eb
+grigio scritte: #8b959e */
+
+
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +17,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  color: #8b959e;
+}
+
 #container {
   width: 80%;
   height: 100vh;
@@ -17,12 +28,23 @@ body {
   background: yellow; /* debug */
 }
 
+  /* HEADER */
+
   header {
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 140px;
     background: orange; /* debug */
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  ul a {
+    text-decoration: none;
+    list-style-type: none;
   }
 
     #piani {
