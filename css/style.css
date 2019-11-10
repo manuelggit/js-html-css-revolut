@@ -25,7 +25,6 @@ a {
   width: 80%;
   height: 100vh;
   margin: auto;
-  background: yellow; /* debug */
 }
 
   /* HEADER */
@@ -35,7 +34,6 @@ a {
     justify-content: space-between;
     width: 100%;
     height: 140px;
-    background: orange; /* debug */
   }
 
   ul {
@@ -47,14 +45,54 @@ a {
     list-style-type: none;
   }
 
+    /* barra dei piani */
+
     #piani {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
       width: 30%;
       height: 100%;
-      background: lightblue; /* debug */
     }
 
+    #piani ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    #piani ul li {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: calc(100% / 3);
+      height: 100%;
+    }
+
+    /* barra navigazione */
+
     nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
       width: 50%;
       height: 100%;
-      background: red; /* debug */
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    nav ul li {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: calc(100% / 7);
+      height: 100%;
     }
