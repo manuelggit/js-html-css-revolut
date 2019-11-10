@@ -9,3 +9,30 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+#container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  background: yellow; /* debug */
+}
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    background: orange; /* debug */
+  }
+
+    #piani {
+      width: 30%;
+      height: 100%;
+      background: lightblue; /* debug */
+    }
+
+    nav {
+      width: 50%;
+      height: 100%;
+      background: red; /* debug */
+    }
