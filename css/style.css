@@ -17,7 +17,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-ul li a:hover {
+ul li:hover {
   cursor: pointer;
   color: #000000;
 }
@@ -124,6 +124,41 @@ a {
       color: #ffffff;
     }
 
+    .dropdown {
+      position: relative;
+    }
+
     .dropcontent {
-      display: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      position: absolute;
+      margin-top: 30px;
+      margin-left: -25px;
+      /* border: 1px solid black; */
+      box-shadow: 0 3px 5px 3px lightgrey;
+      width: auto;
+      height: auto;
+    }
+
+    .dropcontent li {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      width: auto;
+      height: 50px;
+      padding: 0 40px 0 25px;
+    }
+
+    .dropcontent li span {
+      color: #eb008d;
+      position: absolute;
+      margin-left: 80px;
+      margin-bottom: 30px;
+      font-size: 0.8em;
+      font-weight: 800;
     }
